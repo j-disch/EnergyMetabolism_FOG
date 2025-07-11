@@ -1,0 +1,474 @@
+----------------
+GIBBS ENERGIES
+----------------
+
+Reaction: PGLM
+  0 + (-1)dG_glucose1phos[-1756.870] + (1)dG_glucose6phos[-1763.940]
+  0 + (-1)dH_glucose1phos[NaN] + (1)dH_glucose6phos[NaN]
+  Ionic strength correction: DrG[-7.070000] - beta_G[0.612078] * Q[0.000000] = -7.070000
+  No temperature correction
+
+Reaction: PGI
+  0 + (-1)dG_glucose6phos[-1763.940] + (1)dG_fructose6phos[-1760.800]
+  0 + (-1)dH_glucose6phos[NaN] + (1)dH_fructose6phos[NaN]
+  Ionic strength correction: DrG[3.140000] - beta_G[0.612078] * Q[0.000000] = 3.140000
+  No temperature correction
+
+Reaction: PFKa
+  0 + (-1)dG_fructose6phos[-1760.800] + (-1)dG_ATP[-2768.100] + (1)dG_fructose16phos[-2601.400] + (1)dG_ADP[-1906.130] + (1)dG_H[0.000]
+  0 + (-1)dH_fructose6phos[NaN] + (-1)dH_ATP[NaN] + (1)dH_fructose16phos[NaN] + (1)dH_ADP[NaN] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[21.370000] - beta_G[0.612078] * Q[6.000000] = 17.697530
+  No temperature correction
+
+Reaction: FBA
+  0 + (-1)dG_fructose16phos[-2601.400] + (1)dG_glyceraldehydephos[-1288.600] + (1)dG_dihydroxyacetonephos[-1296.260]
+  0 + (-1)dH_fructose16phos[NaN] + (1)dH_glyceraldehydephos[NaN] + (1)dH_dihydroxyacetonephos[NaN]
+  Ionic strength correction: DrG[16.540000] - beta_G[0.612078] * Q[-8.000000] = 21.436627
+  No temperature correction
+
+Reaction: TPI
+  0 + (-1)dG_glyceraldehydephos[-1288.600] + (1)dG_dihydroxyacetonephos[-1296.260]
+  0 + (-1)dH_glyceraldehydephos[NaN] + (1)dH_dihydroxyacetonephos[NaN]
+  Ionic strength correction: DrG[-7.660000] - beta_G[0.612078] * Q[0.000000] = -7.660000
+  No temperature correction
+
+Reaction: GAPDH
+  0 + (-1)dG_glyceraldehydephos[-1288.600] + (-1)dG_Pi[-1096.100] + (-1)dG_NAD[0.000] + (1)dG_bpg[-2356.140] + (1)dG_NADH[22.650] + (1)dG_H[0.000]
+  0 + (-1)dH_glyceraldehydephos[NaN] + (-1)dH_Pi[NaN] + (-1)dH_NAD[NaN] + (1)dH_bpg[NaN] + (1)dH_NADH[NaN] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[51.210000] - beta_G[0.612078] * Q[12.000000] = 43.865059
+  No temperature correction
+
+Reaction: G3PDH
+  0 + (-1)dG_glycerol3phos[-1339.250] + (-1)dG_NAD[0.000] + (1)dG_dihydroxyacetonephos[-1296.260] + (1)dG_NADH[22.650] + (1)dG_H[0.000]
+  0 + (-1)dH_glycerol3phos[NaN] + (-1)dH_NAD[NaN] + (1)dH_dihydroxyacetonephos[NaN] + (1)dH_NADH[NaN] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[65.640000] - beta_G[0.612078] * Q[4.000000] = 63.191686
+  No temperature correction
+
+Reaction: PGK
+  0 + (-1)dG_bpg[-2356.140] + (-1)dG_ADP[-1906.130] + (1)dG_pg3[-1502.540] + (1)dG_ATP[-2768.100]
+  0 + (-1)dH_bpg[NaN] + (-1)dH_ADP[NaN] + (1)dH_pg3[NaN] + (1)dH_ATP[NaN]
+  Ionic strength correction: DrG[-8.370000] - beta_G[0.612078] * Q[0.000000] = -8.370000
+  No temperature correction
+
+Reaction: PGYM
+  0 + (-1)dG_pg3[-1502.540] + (1)dG_pg2[-1496.380]
+  0 + (-1)dH_pg3[NaN] + (1)dH_pg2[NaN]
+  Ionic strength correction: DrG[6.160000] - beta_G[0.612078] * Q[0.000000] = 6.160000
+  No temperature correction
+
+Reaction: ENO
+  0 + (-1)dG_pg2[-1496.380] + (1)dG_pep[-1263.650] + (1)dG_H2O[-237.190]
+  0 + (-1)dH_pg2[NaN] + (1)dH_pep[NaN] + (1)dH_H2O[-285.830]
+  Ionic strength correction: DrG[-4.460000] - beta_G[0.612078] * Q[0.000000] = -4.460000
+  No temperature correction
+
+Reaction: PYK
+  0 + (-1)dG_pep[-1263.650] + (-1)dG_ADP[-1906.130] + (-1)dG_H[0.000] + (1)dG_pyruvate[-472.270] + (1)dG_ATP[-2768.100]
+  0 + (-1)dH_pep[NaN] + (-1)dH_ADP[NaN] + (-1)dH_H[NaN] + (1)dH_pyruvate[NaN] + (1)dH_ATP[NaN]
+  Ionic strength correction: DrG[-70.590000] - beta_G[0.612078] * Q[-2.000000] = -69.365843
+  No temperature correction
+
+Reaction: ATPASE
+  0 + (-1)dG_ATP[-2768.100] + (-1)dG_H2O[-237.190] + (1)dG_ADP[-1906.130] + (1)dG_Pi[-1096.100] + (1)dG_H[0.000]
+  0 + (-1)dH_ATP[NaN] + (-1)dH_H2O[-285.830] + (1)dH_ADP[NaN] + (1)dH_Pi[NaN] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[3.060000] - beta_G[0.612078] * Q[-2.000000] = 4.284157
+  No temperature correction
+
+Reaction: CK
+  0 + (-1)dG_phosphocreatine[-295.000] + (-1)dG_ADP[-1906.130] + (-1)dG_H[0.000] + (1)dG_creatine[0.000] + (1)dG_ATP[-2768.100]
+  0 + (-1)dH_phosphocreatine[NaN] + (-1)dH_ADP[NaN] + (-1)dH_H[NaN] + (1)dH_creatine[NaN] + (1)dH_ATP[NaN]
+  Ionic strength correction: DrG[-566.970000] - beta_G[0.612078] * Q[2.000000] = -568.194157
+  No temperature correction
+
+Reaction: AK
+  0 + (-1)dG_ATP[-2768.100] + (-1)dG_AMP[-1040.450] + (2)dG_ADP[-1906.130]
+  0 + (-1)dH_ATP[NaN] + (-1)dH_AMP[NaN] + (2)dH_ADP[NaN]
+  Ionic strength correction: DrG[-3.710000] - beta_G[0.612078] * Q[-2.000000] = -2.485843
+  No temperature correction
+
+Reaction: LDH
+  0 + (-1)dG_pyruvate[-472.270] + (-1)dG_NADH[22.650] + (-1)dG_H[0.000] + (1)dG_lactate[-516.720] + (1)dG_NAD[0.000]
+  0 + (-1)dH_pyruvate[NaN] + (-1)dH_NADH[NaN] + (-1)dH_H[NaN] + (1)dH_lactate[NaN] + (1)dH_NAD[NaN]
+  Ionic strength correction: DrG[-67.100000] - beta_G[0.612078] * Q[-4.000000] = -64.651686
+  No temperature correction
+
+Reaction: OxPhosO2
+  0 + (-1)dG_pyruvate[-472.270] + (-1)dG_NADH[22.650] + (-16)dG_ADP[-1906.130] + (-16)dG_Pi[-1096.100] + (-18)dG_H[0.000] + (-3)dG_O2aq[16.400] + (16)dG_ATP[-2768.100] + (3)dG_co2g[-394.360] + (19)dG_H2O[-237.190] + (1)dG_NAD[0.000]
+  0 + (-1)dH_pyruvate[NaN] + (-1)dH_NADH[NaN] + (-16)dH_ADP[NaN] + (-16)dH_Pi[NaN] + (-18)dH_H[NaN] + (-3)dH_O2aq[-11.700] + (16)dH_ATP[NaN] + (3)dH_co2g[-393.500] + (19)dH_H2O[-285.830] + (1)dH_NAD[NaN]
+  Ionic strength correction: DrG[-1543.190000] - beta_G[0.612078] * Q[26.000000] = -1559.104038
+  No temperature correction
+
+Reaction: CarbAnhyd
+  0 + (-1)dG_co2g[-394.360] + (-1)dG_H2O[-237.190] + (1)dG_coaq[-119.900] + (1)dG_H[0.000]
+  0 + (-1)dH_co2g[-393.500] + (-1)dH_H2O[-285.830] + (1)dH_coaq[-120.960] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[511.650000] - beta_G[0.612078] * Q[1.000000] = 511.037922
+  No temperature correction
+
+Reaction: CO2Hyd
+  0 + (-1)dG_co2g[-394.360] + (-1)dG_H2O[-237.190] + (1)dG_coaq[-119.900] + (1)dG_H[0.000]
+  0 + (-1)dH_co2g[-393.500] + (-1)dH_H2O[-285.830] + (1)dH_coaq[-120.960] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[511.650000] - beta_G[0.612078] * Q[1.000000] = 511.037922
+  No temperature correction
+
+Transporter: MCT
+  0 + (-1)dG_lactate[-516.720] + (-1)dG_H[0.000] + (1)dG_lactate[-516.720] + (1)dG_H[0.000]
+  0 + (-1)dH_lactate[NaN] + (-1)dH_H[NaN] + (1)dH_lactate[NaN] + (1)dH_H[NaN]
+  Ionic strength correction: DrG[0.000000] - beta_G[0.612078] * Q[0.000000] = 0.000000
+  No temperature correction
+
+Transporter: CO2Diff
+  0 + (-1)dG_co2g[-394.360] + (1)dG_co2g[-394.360]
+  0 + (-1)dH_co2g[-393.500] + (1)dH_co2g[-393.500]
+  Ionic strength correction: DrG[0.000000] - beta_G[0.612078] * Q[0.000000] = 0.000000
+  No temperature correction
+
+Transporter: CO2weg
+  0 + (-1)dG_co2g[-394.360] + (1)dG_co2g[-394.360]
+  0 + (-1)dH_co2g[-393.500] + (1)dH_co2g[-393.500]
+  Ionic strength correction: DrG[0.000000] - beta_G[0.612078] * Q[0.000000] = 0.000000
+  No temperature correction
+
+Transporter: HCO3weg
+  0 + (-1)dG_coaq[-119.900] + (1)dG_coaq[-119.900]
+  0 + (-1)dH_coaq[-120.960] + (1)dH_coaq[-120.960]
+  Ionic strength correction: DrG[0.000000] - beta_G[0.612078] * Q[0.000000] = 0.000000
+  No temperature correction
+
+Transporter: LacWeg
+  0 + (-1)dG_lactate[-516.720] + (1)dG_lactate[-516.720]
+  0 + (-1)dH_lactate[NaN] + (1)dH_lactate[NaN]
+  Ionic strength correction: DrG[0.000000] - beta_G[0.612078] * Q[0.000000] = 0.000000
+  No temperature correction
+
+ 
+-----------------
+PKA CORRECTIONS
+-----------------
+
+ glucose1phos
+   pKH
+     Ionic strength correction: pKa_in[6.090] + beta_K[0.000] * z[4.000] = 6.090
+     Ionic strength correction: dHr[-1.700] + beta_H[0.311] * z[4.000] = -0.454
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-0.454]/2.3026*R = 6.093
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[2.480] + beta_K[0.000] * z[8.000] = 2.480
+     Ionic strength correction: dHr[-12.000] + beta_H[0.311] * z[8.000] = -9.509
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-9.509]/2.3026*R = 2.544
+
+     pK = 0.003
+   pKK
+     pK = inf (No dissociation)
+ glucose6phos
+   pKH
+     Ionic strength correction: pKa_in[6.110] + beta_K[0.000] * z[4.000] = 6.110
+
+     pK = 0.000
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ fructose6phos
+   pKH
+     Ionic strength correction: pKa_in[5.890] + beta_K[0.000] * z[4.000] = 5.890
+
+     pK = 0.000
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ ATP
+   pKH
+     Ionic strength correction: pKa_in[6.480] + beta_K[0.000] * z[8.000] = 6.480
+     Ionic strength correction: dHr[-5.000] + beta_H[0.311] * z[8.000] = -2.509
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-2.509]/2.3026*R = 6.497
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[4.190] + beta_K[0.000] * z[16.000] = 4.190
+     Ionic strength correction: dHr[-18.000] + beta_H[0.311] * z[16.000] = -13.018
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-13.018]/2.3026*R = 4.278
+
+     pK = 0.000
+   pKK
+     Ionic strength correction: pKa_in[1.170] + beta_K[0.000] * z[8.000] = 1.170
+     Ionic strength correction: dHr[-1.000] + beta_H[0.311] * z[8.000] = 1.491
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[1.491]/2.3026*R = 1.160
+
+     pK = 0.069
+ fructose16phos
+   pKH
+     Ionic strength correction: pKa_in[6.400] + beta_K[0.000] * z[8.000] = 6.400
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[2.700] + beta_K[0.000] * z[16.000] = 2.700
+
+     pK = 0.002
+   pKK
+     pK = inf (No dissociation)
+ ADP
+   pKH
+     Ionic strength correction: pKa_in[6.380] + beta_K[0.000] * z[6.000] = 6.380
+     Ionic strength correction: dHr[-3.000] + beta_H[0.311] * z[6.000] = -1.132
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-1.132]/2.3026*R = 6.388
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[3.250] + beta_K[0.000] * z[12.000] = 3.250
+     Ionic strength correction: dHr[-15.000] + beta_H[0.311] * z[12.000] = -11.263
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-11.263]/2.3026*R = 3.326
+
+     pK = 0.000
+   pKK
+     Ionic strength correction: pKa_in[1.000] + beta_K[0.000] * z[6.000] = 1.000
+
+     pK = 0.100
+ glyceraldehydephos
+   pKH
+     Ionic strength correction: pKa_in[6.450] + beta_K[0.000] * z[4.000] = 6.450
+
+     pK = 0.000
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ dihydroxyacetonephos
+   pKH
+     Ionic strength correction: pKa_in[5.900] + beta_K[0.000] * z[4.000] = 5.900
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[1.570] + beta_K[0.000] * z[8.000] = 1.570
+
+     pK = 0.027
+   pKK
+     pK = inf (No dissociation)
+ Pi
+   pKH
+     Ionic strength correction: pKa_in[6.750] + beta_K[0.000] * z[4.000] = 6.750
+     Ionic strength correction: dHr[3.000] + beta_H[0.311] * z[4.000] = 4.246
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[4.246]/2.3026*R = 6.721
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[1.650] + beta_K[0.000] * z[8.000] = 1.650
+     Ionic strength correction: dHr[-2.900] + beta_H[0.311] * z[8.000] = -0.409
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-0.409]/2.3026*R = 1.653
+
+     pK = 0.022
+   pKK
+     Ionic strength correction: pKa_in[0.500] + beta_K[0.000] * z[4.000] = 0.500
+
+     pK = 0.316
+ NAD
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ bpg
+   pKH
+     Ionic strength correction: pKa_in[7.500] + beta_K[0.000] * z[8.000] = 7.500
+
+     pK = 0.000
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ NADH
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ glycerol3phos
+   pKH
+     Ionic strength correction: pKa_in[6.220] + beta_K[0.000] * z[4.000] = 6.220
+     Ionic strength correction: dHr[-3.100] + beta_H[0.311] * z[4.000] = -1.854
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-1.854]/2.3026*R = 6.233
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[1.630] + beta_K[0.000] * z[8.000] = 1.630
+
+     pK = 0.023
+   pKK
+     pK = inf (No dissociation)
+ pg3
+   pKH
+     Ionic strength correction: pKa_in[6.210] + beta_K[0.000] * z[6.000] = 6.210
+
+     pK = 0.000
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ pg2
+   pKH
+     Ionic strength correction: pKa_in[7.000] + beta_K[0.000] * z[6.000] = 7.000
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[2.450] + beta_K[0.000] * z[12.000] = 2.450
+
+     pK = 0.004
+   pKK
+     Ionic strength correction: pKa_in[1.180] + beta_K[0.000] * z[6.000] = 1.180
+
+     pK = 0.066
+ pep
+   pKH
+     Ionic strength correction: pKa_in[6.350] + beta_K[0.000] * z[6.000] = 6.350
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[2.260] + beta_K[0.000] * z[12.000] = 2.260
+
+     pK = 0.005
+   pKK
+     Ionic strength correction: pKa_in[1.080] + beta_K[0.000] * z[6.000] = 1.080
+
+     pK = 0.083
+ pyruvate
+   pKH
+     Ionic strength correction: pKa_in[2.490] + beta_K[0.000] * z[2.000] = 2.490
+
+     pK = 0.003
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ phosphocreatine
+   pKH
+     Ionic strength correction: pKa_in[4.500] + beta_K[0.000] * z[4.000] = 4.500
+     Ionic strength correction: dHr[2.660] + beta_H[0.311] * z[4.000] = 3.906
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[3.906]/2.3026*R = 4.474
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[1.600] + beta_K[0.000] * z[8.000] = 1.600
+     Ionic strength correction: dHr[8.190] + beta_H[0.311] * z[8.000] = 10.681
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[10.681]/2.3026*R = 1.528
+
+     pK = 0.030
+   pKK
+     Ionic strength correction: pKa_in[0.310] + beta_K[0.000] * z[4.000] = 0.310
+
+     pK = 0.490
+ creatine
+   pKH
+     Ionic strength correction: pKa_in[2.300] + beta_K[0.000] * z[0.000] = 2.300
+
+     pK = 0.005
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ AMP
+   pKH
+     Ionic strength correction: pKa_in[6.290] + beta_K[0.000] * z[4.000] = 6.290
+     Ionic strength correction: dHr[-3.000] + beta_H[0.311] * z[4.000] = -1.754
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-1.754]/2.3026*R = 6.302
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[1.920] + beta_K[0.000] * z[8.000] = 1.920
+     Ionic strength correction: dHr[-7.500] + beta_H[0.311] * z[8.000] = -5.009
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[-5.009]/2.3026*R = 1.954
+
+     pK = 0.011
+   pKK
+     pK = inf (No dissociation)
+ lactate
+   pKH
+     Ionic strength correction: pKa_in[3.670] + beta_K[0.000] * z[2.000] = 3.670
+     Ionic strength correction: dHr[-0.330] + beta_H[0.311] * z[2.000] = 0.293
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[0.293]/2.3026*R = 3.668
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[0.980] + beta_K[0.000] * z[4.000] = 0.980
+
+     pK = 0.105
+   pKK
+     pK = inf (No dissociation)
+ O2aq
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ co2g
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ coaq
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ co2g
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ coaq
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ lactate_extracellular
+   pKH
+     Ionic strength correction: pKa_in[3.670] + beta_K[0.000] * z[2.000] = 3.670
+     Ionic strength correction: dHr[-0.330] + beta_H[0.311] * z[2.000] = 0.293
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[0.293]/2.3026*R = 3.668
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[0.980] + beta_K[0.000] * z[4.000] = 0.980
+
+     pK = 0.105
+   pKK
+     pK = inf (No dissociation)
+ co2g_capillary
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ coaq_capillary
+   pKH
+     pK = inf (No dissociation)
+   pKM
+     pK = inf (No dissociation)
+   pKK
+     pK = inf (No dissociation)
+ lactate_capillary
+   pKH
+     Ionic strength correction: pKa_in[3.670] + beta_K[0.000] * z[2.000] = 3.670
+     Ionic strength correction: dHr[-0.330] + beta_H[0.311] * z[2.000] = 0.293
+     Temperature correction: pKa + (1/T_new[310.150]-1/T_old[298.150]) * drH[0.293]/2.3026*R = 3.668
+
+     pK = 0.000
+   pKM
+     Ionic strength correction: pKa_in[0.980] + beta_K[0.000] * z[4.000] = 0.980
+
+     pK = 0.105
+   pKK
+     pK = inf (No dissociation)
+ 
